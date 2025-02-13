@@ -33,5 +33,5 @@ jobs:
         run: docker pull blacklocksec/code-scanner:latest
 
       - name: Run Blacklock Code Scanner
-        run: docker run --rm -v $(pwd):/app -e SONAR_PROJECTKEY="Jg8d2l42caehoZDU" -e SONAR_HOST_URL=${{ secrets.SONAR_HOST_URL }} -e SONAR_TOKEN=${{ secrets.SONAR_TOKEN }}  blacklocksec/code-scanner:latest
+        run: docker run --rm -v $(pwd):/app -e SONAR_PROJECTKEY="zU1d5GX9iSewFGd." -e SONAR_HOST_URL=${{ secrets.SONAR_HOST_URL }} -e SONAR_TOKEN=${{ secrets.SONAR_TOKEN }}  blacklocksec/code-scanner:latest
         
