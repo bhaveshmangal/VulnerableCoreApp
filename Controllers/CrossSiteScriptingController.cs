@@ -23,7 +23,7 @@ namespace VulnerableCoreApp.Controllers
         [HttpGet]
         public IActionResult DemoTypeI()
         {
-            CommentsViewModel comments = commentsRepository.GetAll();
+            // CommentsViewModel comments = commentsRepository.GetAll();
             
             return View(comments);
         }
